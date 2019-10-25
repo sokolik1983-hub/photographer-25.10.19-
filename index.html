@@ -4,16 +4,92 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Photographer</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+          integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="libs/animate.css">
+
+
+
 </head>
 <body>
+<header>
+    <nav class="navbar navbar-expand-md bg-transparent">
+        <div class="container bounce">
+            <button class="navbar-toggler custom-toggler" type="button" data-toggle="collapse"
+                    data-target="#navbarResponsive">
+                <span class="navbar-toggler-icon custom-toggler"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-center" id="navbarResponsive">
+                <ul class="nav m-auto wow fadeInDown" id="hidden-header" data-wow-duration="2s">
+                    <li class="nav-item">
+                        <a href="#" class="nav-link header__link header__link--active">главная</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link header__link">свадьбы</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link header__link">репортаж</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link header__link">блог</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link header__link">стоимость</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link header__link">контакты</a>
+                    </li>
+                    <li class="nav-item bounce">
+                        <a href="#" class="nav-link header__link">отзывы</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
 
+</header>
 
+<div class="content wow fadeInUp"  data-wow-duration="2s" data-wow-offset="100">
+    <b><p class="contacts">Maria Sukacheva <br>Wedding Photographer <br><br>+7 915 428-27-13</p></b>
+    <div class="social text-center"><a href="https://vk.com/sokolik1983"><img
+            src="https://cdn4.iconfinder.com/data/icons/social-circle/512/vk-512.png"
+            alt="icon" width="30"></a>
+        <a href="https://www.facebook.com/profile.php?id=1618424262"><img
+                src="https://sitejerk.com/images/facebook-circle-logo-png-7.png" alt="icon" width="30"></a>
+        <a href="https://www.ok.ru"><img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRU--msCYRQIM3g0pbfzrgkL8fkA6nVD9OYKIeQpAfy2bnn8Z3u_w"
+                alt="icon" width="30"></a>
+        <a href="https://twitter.com/?lang=ru"><img
+                src="http://www.myiconfinder.com/uploads/iconsets/256-256-34adfdd89391158e011e6e6f8e153984.png"
+                alt="icon"
+                width="30"></a></div>
 
+    <div class="container">
+        <div class="row">
+            <div class="col-3 content__column">
+                <a href="#" class="content__link-img"><img src="images/IMG-20190618-WA0007%201.png" alt="photo" class="content__img"></a>
+                <img src="images/IMG-20190618-WA0007%201.png" alt="photo" class="content__img">
+                <img src="images/IMG-20190618-WA0007%201.png" alt="photo" class="content__img">
 
+            </div>
+            <div class="col-6 content__column">
+                <img src="images/IMG_3612%201%201.png" alt="photo" class="content__img">
+                <img src="images/IMG_3612%201%201.png" alt="photo" class="content__img">
+                <img src="images/IMG_3612%201%201.png" alt="photo" class="content__img">
+                <img src="images/IMG_3612%201%201.png" alt="photo" class="content__img">
+            </div>
+            <div class="col-3 content__column">
+                <img src="images/IMG-20190618-WA0007%201.png" alt="photo" class="content__img">
+                <img src="images/IMG-20190618-WA0007%201.png" alt="photo" class="content__img">
+                <img src="images/IMG-20190618-WA0007%201.png" alt="photo" class="content__img">
+            </div>
+        </div>
 
+    </div>
 
+</div>
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
         crossorigin="anonymous"></script>
@@ -21,6 +97,8 @@
         integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
         crossorigin="anonymous"></script>
 <script src="js/bootstrap.min.js"></script>
+<script src="js/wow.js"></script>
+<script src="js/scrollspy.js"></script>
 <script src="js/script.js"></script>
 </body>
 </html>

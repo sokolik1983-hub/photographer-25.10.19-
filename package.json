@@ -1,0 +1,28 @@
+{
+  "name": "photographer-25.10.19-",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start-Photographer-25.10.19-": "gulp run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sokolik1983-hub/photographer-25.10.19-.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sokolik1983-hub/photographer-25.10.19-/issues"
+  },
+  "homepage": "https://github.com/sokolik1983-hub/photographer-25.10.19-#readme",
+  "devDependencies": {
+    "browser-sync": "^2.26.7",
+    "gulp": "^4.0.2",
+    "gulp-sass": "^4.0.2"
+  },
+  "dependencies": {
+    "animate.css": "^3.7.2"
+  }
+}

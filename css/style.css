@@ -1,0 +1,40 @@
+@font-face {
+  src: url("../fonts/Pacificoregular.ttf");
+  font-family: Pacifico; }
+
+@font-face {
+  src: url("../fonts/ubuntu.ttf");
+  font-family: Ubuntu; }
+
+header {
+  background: url("../images/1.jpg") no-repeat center/cover;
+  width: 100%;
+  height: 100vh; }
+
+.header__link {
+  font-family: Pacifico,sans-serif;
+  font-size: 30px;
+  text-transform: capitalize;
+  color: #fffdd0;
+  transition: .3s; }
+
+.header__link:hover {
+  color: red; }
+
+.header__link--active {
+  color: red; }
+
+.contacts {
+  text-align: center;
+  font-size: 25px;
+  font-family: Ubuntu, Arial, sans-serif; }
+
+.content {
+  margin-top: 10px; }
+
+.content__column {
+  padding: 5px; }
+
+.content__img {
+  width: 100%;
+  padding: 5px 0; }
