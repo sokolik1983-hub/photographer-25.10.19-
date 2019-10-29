@@ -1,0 +1,31 @@
+.menu {
+  padding: 50px 0;
+}
+
+.menu__img {
+  width: 100%;
+  transition: .5s;
+}
+
+
+.menu__img:hover {
+  opacity: .7;
+}
+.menu__link {
+  text-decoration: none;
+  color: black;
+}
+.menu__link:hover {
+  text-decoration: none;
+}
+.menu__text {
+  letter-spacing: 0;
+  color: black;
+  transition: .5s;
+}
+.menu__text:hover {
+  opacity: .5;
+}
+.menu__footer-bg {
+  width: 100%;
+}

@@ -9,87 +9,168 @@
 
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="libs/animate.css">
-
-
+    <link rel="stylesheet" href="css/jquery.fancybox.min.css">
 
 </head>
 <body>
 <header>
-    <nav class="navbar navbar-expand-md bg-transparent">
-        <div class="container bounce">
-            <button class="navbar-toggler custom-toggler" type="button" data-toggle="collapse"
-                    data-target="#navbarResponsive">
-                <span class="navbar-toggler-icon custom-toggler"></span>
-            </button>
-            <div class="collapse navbar-collapse justify-content-center" id="navbarResponsive">
-                <ul class="nav m-auto wow fadeInDown" id="hidden-header" data-wow-duration="2s">
-                    <li class="nav-item">
-                        <a href="#" class="nav-link header__link header__link--active">главная</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#" class="nav-link header__link">свадьбы</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#" class="nav-link header__link">репортаж</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#" class="nav-link header__link">блог</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#" class="nav-link header__link">стоимость</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#" class="nav-link header__link">контакты</a>
-                    </li>
-                    <li class="nav-item bounce">
-                        <a href="#" class="nav-link header__link">отзывы</a>
-                    </li>
-                </ul>
+    <div class="header__wrap animated fadeIn" style="-webkit-animation-duration: 3s;animation-duration: 3s;">
+        <nav class="navbar navbar-expand-md bg-transparent">
+            <div class="container">
+                <button class="navbar-toggler custom-toggler" type="button" data-toggle="collapse"
+                        data-target="#navbarResponsive">
+                    <span class="navbar-toggler-icon custom-toggler"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-center" id="navbarResponsive">
+                    <ul class="nav m-auto wow fadeInDown" id="hidden-header" data-wow-duration="2s">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link header__link header__link--active">главная</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link header__link">свадьбы</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link header__link">репортаж</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link header__link">блог</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link header__link">стоимость</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link header__link">контакты</a>
+                        </li>
+                        <li class="nav-item bounce">
+                            <a href="#" class="nav-link header__link">отзывы</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
-        </div>
-    </nav>
+        </nav>
+    </div>
 
 </header>
 
-<div class="content wow fadeInUp"  data-wow-duration="2s" data-wow-offset="100">
-    <b><p class="contacts">Maria Sukacheva <br>Wedding Photographer <br><br>+7 915 428-27-13</p></b>
-    <div class="social text-center"><a href="https://vk.com/sokolik1983"><img
-            src="https://cdn4.iconfinder.com/data/icons/social-circle/512/vk-512.png"
-            alt="icon" width="30"></a>
-        <a href="https://www.facebook.com/profile.php?id=1618424262"><img
-                src="https://sitejerk.com/images/facebook-circle-logo-png-7.png" alt="icon" width="30"></a>
-        <a href="https://www.ok.ru"><img
-                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRU--msCYRQIM3g0pbfzrgkL8fkA6nVD9OYKIeQpAfy2bnn8Z3u_w"
-                alt="icon" width="30"></a>
-        <a href="https://twitter.com/?lang=ru"><img
-                src="http://www.myiconfinder.com/uploads/iconsets/256-256-34adfdd89391158e011e6e6f8e153984.png"
-                alt="icon"
-                width="30"></a></div>
-
-    <div class="container">
+<section class="content">
+    <div class="contacts wow fadeInUp">
+        <b><p class="contacts__text">Maria Sukacheva <br>Wedding Photographer <br><br>+7 915 428-27-13</p></b>
+        <div class="social text-center">
+            <a href="https://vk.com/sokolik1983"><img
+                    src="images/vk.svg"
+                    alt="icon" class="social__link"></a>
+            <a href="https://www.facebook.com/profile.php?id=1618424262"><img
+                    src="images/facebook.svg" alt="icon" class="social__link"></a>
+            <a href="https://www.ok.ru"><img
+                    src="images/ok.svg"
+                    alt="icon" class="social__link"></a>
+            <a href="https://twitter.com/?lang=ru"><img
+                    src="images/twitter.svg"
+                    alt="icon" class="social__link"></a>
+            <a href="https://twitter.com/?lang=ru"><img
+                    src="images/instagram.svg"
+                    alt="icon" class="social__link"></a>
+        </div>
+    </div>
+    <div class="container wow fadeIn" style="-webkit-animation-duration: 4s;animation-duration: 4s;">
         <div class="row">
             <div class="col-3 content__column">
-                <a href="#" class="content__link-img"><img src="images/IMG-20190618-WA0007%201.png" alt="photo" class="content__img"></a>
-                <img src="images/IMG-20190618-WA0007%201.png" alt="photo" class="content__img">
-                <img src="images/IMG-20190618-WA0007%201.png" alt="photo" class="content__img">
+                <a data-fancybox="gallery" href="images/IMG-20190618-WA0007%201.png" class="content__link-img"><img
+                        src="images/IMG-20190618-WA0007%201.png" alt="photo"
+                        class="content__img"></a>
+                <a data-fancybox="gallery" href="images/IMG-20190618-WA0007%201.png" class="content__link-img"><img
+                        src="images/IMG-20190618-WA0007%201.png" alt="photo"
+                        class="content__img"></a>
+                <a data-fancybox="gallery" href="images/IMG-20190618-WA0007%201.png" class="content__link-img"><img
+                        src="images/IMG-20190618-WA0007%201.png" alt="photo"
+                        class="content__img"></a>
 
             </div>
             <div class="col-6 content__column">
+                <a data-fancybox="gallery" href="images/IMG_3612%201%201.png" class="content__link-img">
                 <img src="images/IMG_3612%201%201.png" alt="photo" class="content__img">
-                <img src="images/IMG_3612%201%201.png" alt="photo" class="content__img">
-                <img src="images/IMG_3612%201%201.png" alt="photo" class="content__img">
-                <img src="images/IMG_3612%201%201.png" alt="photo" class="content__img">
+                </a>
+                <a data-fancybox="gallery" href="images/IMG_3612%201%201.png" class="content__link-img">
+                    <img src="images/IMG_3612%201%201.png" alt="photo" class="content__img">
+                </a>
+                <a data-fancybox="gallery" href="images/IMG_3612%201%201.png" class="content__link-img">
+                    <img src="images/IMG_3612%201%201.png" alt="photo" class="content__img">
+                </a>
+                <a data-fancybox="gallery" href="images/IMG_3612%201%201.png" class="content__link-img">
+                    <img src="images/IMG_3612%201%201.png" alt="photo" class="content__img">
+                </a>
             </div>
             <div class="col-3 content__column">
-                <img src="images/IMG-20190618-WA0007%201.png" alt="photo" class="content__img">
-                <img src="images/IMG-20190618-WA0007%201.png" alt="photo" class="content__img">
-                <img src="images/IMG-20190618-WA0007%201.png" alt="photo" class="content__img">
+                <a data-fancybox="gallery" href="images/IMG-20190618-WA0007%201.png" class="content__link-img"><img
+                        src="images/IMG-20190618-WA0007%201.png" alt="photo"
+                        class="content__img"></a>
+                <a data-fancybox="gallery" href="images/IMG-20190618-WA0007%201.png" class="content__link-img"><img
+                        src="images/IMG-20190618-WA0007%201.png" alt="photo"
+                        class="content__img"></a>
+                <a data-fancybox="gallery" href="images/IMG-20190618-WA0007%201.png" class="content__link-img"><img
+                        src="images/IMG-20190618-WA0007%201.png" alt="photo"
+                        class="content__img"></a>
             </div>
         </div>
 
     </div>
 
-</div>
+</section>
+<section class="menu">
+    <div class="container p-0  wow fadeInUp">
+        <div class="row text-center d-flex justify-content-between">
+            <div class="col p-0">
+                <a href="#" class="menu__link">
+                    <img src="images/1.jpg" alt="" class="menu__img">
+                    <p class="menu__text contacts">свадебные серии</p>
+                </a>
+            </div>
+            <div class="col">
+                <a href="#" class="menu__link">
+                    <img src="images/1.jpg" alt="" class="menu__img">
+                    <p class="menu__text contacts">репортажная съёмка</p>
+                </a>
+            </div>
+            <div class="col p-0">
+                <a href="#" class="menu__link">
+                    <img src="images/1.jpg" alt="" class="menu__img">
+                    <p class="menu__text contacts">отзывы</p>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="menu__footer wow fadeInUp">
+        <div class="container-fluid p-0">
+            <img src="images/22.jpg" alt="background" class="menu__footer-bg">
+        </div>
+    </div>
+</section>
+<footer>
+    <div class="container-fluid p-0">
+        <div class="social text-center">
+            <a href="https://vk.com/sokolik1983"><img
+                    src="images/vk.svg"
+                    alt="icon" class="social__link"></a>
+            <a href="https://www.facebook.com/profile.php?id=1618424262"><img
+                    src="images/facebook.svg" alt="icon" class="social__link"></a>
+            <a href="https://www.ok.ru"><img
+                    src="images/ok.svg"
+                    alt="icon" class="social__link"></a>
+            <a href="https://twitter.com/?lang=ru"><img
+                    src="images/twitter.svg"
+                    alt="icon" class="social__link"></a>
+            <a href="https://twitter.com/?lang=ru"><img
+                    src="images/instagram.svg"
+                    alt="icon" class="social__link"></a>
+        </div>
+        <div class="footer__subbox text-center">
+            <p class="footer__text">
+                Свадебный фотограф Мария входит в ТОП Лучших Свадебных фотографов Москвы
+            </p>
+        </div>
+    </div>
+</footer>
+
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
         crossorigin="anonymous"></script>
@@ -99,6 +180,7 @@
 <script src="js/bootstrap.min.js"></script>
 <script src="js/wow.js"></script>
 <script src="js/scrollspy.js"></script>
+<script src="js/jquery.fancybox.min.js"></script>
 <script src="js/script.js"></script>
 </body>
 </html>
