@@ -18,7 +18,7 @@
   },
   "homepage": "https://github.com/sokolik1983-hub/photographer-25.10.19-#readme",
   "devDependencies": {
-    "browser-sync": "^2.26.7",
+    "browser-sync": "^2.27.10",
     "gulp": "^4.0.2",
     "gulp-sass": "^4.0.2"
   },
